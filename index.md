@@ -5,7 +5,7 @@ title: Home
 
 # Karan Anchan
 **Master's Student in Computer Science (Artificial Intelligence)** 📍 Freiburg im Breisgau, Germany  
-📧 [kar.anchan02@gmail.com](mailto:kar.anchan02@gmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/karan-anchan) | [cite_start]💻 [GitHub](https://github.com/KaranAnchan) 
+📧 [kar.anchan02@gmail.com](mailto:kar.anchan02@gmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/karan-anchan) | 💻 [GitHub](https://github.com/KaranAnchan) 
 
 ---
 
