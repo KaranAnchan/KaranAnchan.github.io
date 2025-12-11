@@ -1,10 +1,10 @@
 title: Karan Anchan
 email: kar.anchan02@gmail.com
-description: >- # this means to ignore newlines in the description
+description: >-
   Master's Student in Computer Science specializing in Artificial Intelligence, 
-  Generative AI, and Data Science at the University of Freiburg.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://KaranAnchan.github.io" # the base hostname & protocol for your site
+  Generative AI, and Data Science.
+baseurl: ""
+url: "https://KaranAnchan.github.io"
 twitter_username: 
 github_username:  KaranAnchan
 linkedin_username: karan-anchan
@@ -15,18 +15,15 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Footer / Contact Info settings
+# This sets your GitHub profile pic as the website logo & favicon
+logo: https://github.com/KaranAnchan.png
+icon: https://github.com/KaranAnchan.png
+
 author:
   name: Karan Anchan
   email: kar.anchan02@gmail.com
 
-# Exclude from processing.
-# The following items will not be processed, by default.
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
