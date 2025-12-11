@@ -3,114 +3,126 @@ layout: default
 title: Karan Anchan | AI Portfolio
 ---
 
-<div align="center">
-  <h1>Karan Anchan</h1>
-  <h3>Master's Student in Computer Science (Artificial Intelligence)</h3>
-  <p>📍 Freiburg im Breisgau, Germany</p>
+<div align="center" style="margin-bottom: 40px;">
+  <img src="https://github.com/KaranAnchan.png" alt="Karan Anchan" width="150" height="150" style="border-radius: 50%; border: 4px solid #e1e4e8; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <h1 style="margin-top: 20px; font-size: 2.5em; border-bottom: none;">Karan Anchan</h1>
+  <p style="font-size: 1.2em; color: #586069;">
+    Master's Student in CS (Artificial Intelligence) <br> 
+    📍 Freiburg im Breisgau, Germany
+  </p>
   
   <p>
-    <a href="mailto:kar.anchan02@gmail.com">
-      <img src="https://img.shields.io/badge/Email-kar.anchan02%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://linkedin.com/in/karan-anchan">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://github.com/KaranAnchan">
-      <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-    </a>
+    <a href="mailto:kar.anchan02@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-d14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+    <a href="https://linkedin.com/in/karan-anchan"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="https://github.com/KaranAnchan"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
   </p>
 </div>
 
----
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)); margin-bottom: 40px;">
 
-## 👋 About Me
+<h2 align="center" style="border-bottom: none;">👋 About Me</h2>
+<p align="center" style="max-width: 700px; margin: 0 auto 40px auto; line-height: 1.6;">
+  [cite_start]I am a specialized <strong>AI Researcher & Engineer</strong> currently pursuing my Master's at the <strong>University of Freiburg</strong>[cite: 10]. [cite_start]My focus lies at the intersection of <strong>Generative AI</strong>, <strong>Computer Vision</strong>, and <strong>NLP</strong>[cite: 7]. I don't just build models; [cite_start]I engineer end-to-end pipelines that solve real-world problems—from medical image segmentation to semantic translation systems[cite: 8].
+</p>
 
-I am a specialized **AI Researcher & Engineer** currently pursuing my Master's at the **University of Freiburg**. My focus lies at the intersection of **Generative AI**, **Computer Vision**, and **NLP**. 
-
-I don't just build models; I engineer end-to-end pipelines that solve real-world problems—from medical image segmentation to semantic translation systems.
-
----
-
-## 🛠 Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
----
-
-## 🚀 Featured Projects
-
-### 🏥 UNETR: 3D Abdomen Segmentation
-**Stack:** `PyTorch` `MONAI` `Vision Transformers` `DICOM/NIFTI`
-
-I architected a volumetric segmentation pipeline using the **UNETR (Vision Transformer)** architecture to identify 13 distinct abdominal organs. This project solves the challenge of capturing global context dependencies in medical imaging.
-
-<div align="center">
-  <img src="images/unetr.png" alt="UNETR Architecture" width="100%" />
-  <p><em>Fig 1: The UNETR Architecture implementing Transformer Encoders for volumetric data.</em></p>
+<div align="center" style="margin-bottom: 50px;">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
+  <img src="https://img.shields.io/badge/MONAI-5D3FD3?style=for-the-badge&logo=plus&logoColor=white">
 </div>
 
-**Key Achievements:**
-* 🏆 **0.8027 Mean Dice Score** achieved on the BTCV dataset.
-* **Preprocessing:** Engineered robust HU windowing and isometric resampling to normalize soft-tissue density.
-* **Optimization:** Solved class imbalance (e.g., small adrenal glands vs. large liver) using compound Dice-Cross Entropy loss.
+<h2 align="center" style="border-bottom: none; margin-bottom: 30px;">🚀 Featured Projects</h2>
 
-<div align="center">
-  <img src="images/viz.png" alt="Segmentation Visualization" width="100%" />
-  <p><em>Fig 2: Actual model output showing precise segmentation of internal organs.</em></p>
+<div style="background-color: #f6f8fa; padding: 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <h3 style="margin-top: 0; color: #0366d6;">🏥 UNETR: 3D Abdomen Segmentation</h3>
+  <p><strong>Stack:</strong> <code>PyTorch</code> <code>MONAI</code> <code>Vision Transformers</code></p>
+  
+  [cite_start]<p>I architected a volumetric segmentation pipeline using the <strong>UNETR (Vision Transformer)</strong> architecture to identify 13 distinct abdominal organs[cite: 33]. This project solves the challenge of capturing global context dependencies in medical imaging.</p>
+
+  <div align="center" style="margin: 20px 0;">
+    <img src="images/unetr.png" alt="UNETR Architecture" width="90%" style="border-radius: 8px;">
+    <br><em>Fig 1: The UNETR Architecture implementing Transformer Encoders for volumetric data.</em>
+  </div>
+
+  <p><strong>Key Achievements:</strong></p>
+  <ul>
+    [cite_start]<li>🏆 <strong>0.8027 Mean Dice Score</strong> achieved on the BTCV dataset[cite: 36].</li>
+    [cite_start]<li><strong>Preprocessing:</strong> Engineered robust HU windowing and isometric resampling to normalize soft-tissue density[cite: 34].</li>
+  </ul>
+  
+  <div align="center" style="margin: 20px 0;">
+    <img src="images/viz.png" alt="Segmentation Visualization" width="90%" style="border-radius: 8px;">
+    <br><em>Fig 2: Actual model output showing precise segmentation of internal organs.</em>
+  </div>
+
+  <p align="center">
+    <a href="https://github.com/KaranAnchan/Unetr_3D_Abdomen_Segmentation" style="background-color: #2ea44f; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">View Project on GitHub</a>
+  </p>
 </div>
 
-[**View Project on GitHub**](https://github.com/KaranAnchan/Unetr_3D_Abdomen_Segmentation)
+<div style="background-color: #f6f8fa; padding: 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <h3 style="margin-top: 0; color: #0366d6;">🗣️ Neural Machine Translation (Eng-Hi)</h3>
+  <p><strong>Stack:</strong> <code>PyTorch</code> <code>Transformers</code> <code>Altair</code></p>
+  
+  <p>A complete implementation of the <strong>Transformer</strong> architecture ("Attention Is All You Need") built from scratch. [cite_start]This model handles complex transliterations and formal grammar with high accuracy[cite: 38, 40].</p>
 
----
+  <p><strong>Performance Metrics:</strong></p>
+  <ul>
+    [cite_start]<li>📈 <strong>SacreBLEU:</strong> 62.48 [cite: 41]</li>
+    [cite_start]<li>📉 <strong>Character Error Rate (CER):</strong> 0.28 (28%) [cite: 42]</li>
+    [cite_start]<li>🤖 <strong>CHRF++:</strong> 71.78 [cite: 41]</li>
+  </ul>
 
-### 🗣️ Neural Machine Translation (English-to-Hindi)
-**Stack:** `PyTorch` `Transformers` `Altair` `NLP`
+  <div align="center" style="margin: 20px 0;">
+    <img src="images/beautiful_metrics (1).png" alt="Training Metrics" width="90%" style="border-radius: 8px;">
+    <br><em>Fig 3: Training progression showing correlation between SacreBLEU scores and error reduction.</em>
+  </div>
 
-A complete implementation of the **Transformer** architecture ("Attention Is All You Need") built from scratch. This model handles complex transliterations and formal grammar with high accuracy.
-
-**Performance Metrics:**
-* 📈 **SacreBLEU:** 62.48
-* 📉 **Character Error Rate (CER):** 0.28 (28%)
-* 🤖 **CHRF++:** 71.78
-
-<div align="center">
-  <img src="images/beautiful_metrics (1).png" alt="Training Metrics" width="100%" />
-  <p><em>Fig 3: Training progression showing the correlation between SacreBLEU scores and error reduction over 900k steps.</em></p>
+  <p align="center">
+    <a href="https://github.com/KaranAnchan/en-hi-nmt-transformer" style="background-color: #2ea44f; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">View Project on GitHub</a>
+  </p>
 </div>
 
-**Engineering Highlights:**
-* Implemented custom attention visualization tools to debug encoder-decoder alignment.
-* Reduced hallucinations in translation by optimizing the tokenizer for the IIT Bombay Corpus.
+<h2 align="center" style="border-bottom: none; margin-bottom: 30px;">💼 Professional Experience</h2>
 
-[**View Project on GitHub**](https://github.com/KaranAnchan/en-hi-nmt-transformer)
+<div style="border-left: 4px solid #0366d6; padding-left: 20px; margin-bottom: 30px;">
+  <h3>Machine Learning Intern | Wizdom Ed</h3>
+  <p><em>Mangalore, India | [cite_start]Oct 2023 – Apr 2024</em> [cite: 24, 26]</p>
+  [cite_start]<p>Engineered a <strong>Retrieval-Augmented Generation (RAG)</strong> pipeline using LangChain to relate LLM responses to curriculum data[cite: 27].</p>
+  <ul>
+    [cite_start]<li>🚀 <strong>35% increase</strong> in student engagement via optimized data ingestion[cite: 28].</li>
+    [cite_start]<li>✅ <strong>30% boost</strong> in positive response rates by implementing retrieval quality feedback loops[cite: 29].</li>
+  </ul>
+</div>
 
----
+<h2 align="center" style="border-bottom: none; margin-bottom: 30px;">🎓 Education</h2>
 
-## 💼 Professional Experience
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px; border-bottom: 1px solid #e1e4e8; padding-bottom: 10px;">
+  <div>
+    <strong>M.Sc. Computer Science (AI)</strong><br>
+    [cite_start]Albert Ludwig University of Freiburg [cite: 10]
+  </div>
+  <div style="text-align: right;">
+    2025 – Present<br>
+    [cite_start]<em>Grade: 2.5 (Gut)</em> [cite: 11]
+  </div>
+</div>
 
-### **Machine Learning Intern | Wizdom Ed**
-*Mangalore, India | Oct 2023 – Apr 2024*
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px; border-bottom: 1px solid #e1e4e8; padding-bottom: 10px;">
+  <div>
+    <strong>B.E. Computer Science</strong><br>
+    [cite_start]N.M.A.M Institute of Technology [cite: 16, 17]
+  </div>
+  <div style="text-align: right;">
+    2020 – 2024<br>
+    [cite_start]<em>CGPA: 9.33/10</em> [cite: 18]
+  </div>
+</div>
 
-* **RAG Pipeline Engineering:** Developed a Retrieval-Augmented Generation system using **LangChain** and **ChromaDB**. By relating LLM responses to strict curriculum data, I significantly reduced hallucinations.
-* **Impact:** * 🚀 **35% increase** in student engagement via optimized data ingestion.
-    * ✅ **30% boost** in positive response rates by implementing retrieval quality feedback loops.
-
----
-
-## 🎓 Education
-
-**M.Sc. Computer Science (Artificial Intelligence)** *Albert Ludwig University of Freiburg* (2025 – Present)  
-* **Current Grade:** 2.5 (Gut)
-
-**B.E. Computer Science** *N.M.A.M Institute of Technology* (2020 – 2024)  
-* **Grade:** 9.33/10 CGPA (First Class with Distinction)
-
----
+<br>
 <div align="center">
-  <p>© 2025 Karan Anchan. Powered by GitHub Pages.</p>
+  <p style="font-size: 0.9em; color: #586069;">© 2025 Karan Anchan. Powered by GitHub Pages.</p>
 </div>
